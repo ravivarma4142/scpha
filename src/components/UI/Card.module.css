@@ -1,0 +1,19 @@
+.each_card {
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .each_card:nth-child(odd) {
+    margin-right: 1%;
+  }
+  .each_card:nth-child(even) {
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 575px) {
+  .each_card {
+    width: 100%;
+  }
+}

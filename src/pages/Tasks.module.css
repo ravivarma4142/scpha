@@ -1,0 +1,14 @@
+.task {
+  font-weight: bold;
+  display: flex;
+}
+
+.task_title {
+  width: 170px;
+  word-break: break-word;
+}
+
+.status {
+  color: #8f8f8f;
+  text-transform: uppercase;
+}

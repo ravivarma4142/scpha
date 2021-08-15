@@ -1,0 +1,25 @@
+.border_right {
+  border-right: 1px solid #ccc;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+.right_footer p {
+  margin-bottom: 0px;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .border_right {
+    border-right: none;
+  }
+}

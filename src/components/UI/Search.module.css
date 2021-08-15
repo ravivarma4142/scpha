@@ -1,0 +1,24 @@
+.form_control {
+  padding-left: 2.375rem;
+  height: 2.37em;
+  margin-right: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form_control_feedback {
+  position: absolute;
+  z-index: 2;
+  left: 10px;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.search_container {
+  position: relative;
+}

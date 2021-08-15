@@ -1,0 +1,24 @@
+.header {
+  padding: 10px 20px;
+}
+
+.justify_start_end {
+  justify-content: flex-end;
+}
+
+.justify_content_between {
+  justify-content: space-between;
+}
+
+.btn_border {
+  color: #000;
+  border-color: #000;
+  background: transparent;
+}
+
+.btn_border:hover,
+.btn_border:active {
+  color: #000;
+  border-color: #000;
+  background: transparent;
+}

@@ -1,0 +1,9 @@
+.display_flex {
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .display_flex {
+    flex-flow: column;
+  }
+}

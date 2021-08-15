@@ -1,0 +1,26 @@
+.add_btn,
+.mark_complete {
+  background-color: #404040;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.add_btn:hover,
+.mark_complete:hover {
+  color: #fff;
+  outline: none;
+}
+
+.add_input {
+  height: 38px;
+  margin-right: 20px;
+}
+
+.icon {
+  font-weight: bold;
+}
+
+.tasks_container {
+  margin: 20px 0px;
+}
